@@ -1,0 +1,333 @@
+>> DATA UNIVERSITAS SAAT INI
+=== Universitas: Universitas DPBO ===
+Alamat: Jl. Merdeka No. 10, Bandung, Jawa Barat 40115
+Jumlah Anggota: 0
+  (belum ada anggota)
+
+===== MENU TAMBAH DATA UNIVERSITAS =====
+1. Tambah Dosen
+2. Tambah Mahasiswa
+3. Tambah Mahasiswa Berprestasi (Mapres)
+4. Selesai, tampilkan data terbaru lalu keluar
+Pilih menu (1-4): 
+--- Tambah Data Dosen ---
+NIK            : Input harus berupa angka (digit 0-9) tanpa huruf atau simbol. Silakan ulangi.
+NIK            : Nama           : Input tidak boleh kosong. Silakan ulangi.
+Nama           : Umur           : Umur harus berupa angka bulat (tanpa huruf atau simbol). Silakan ulangi.
+Umur           : Umur harus berada pada rentang 1 sampai 120 tahun. Silakan ulangi.
+Umur           : Umur harus berada pada rentang 1 sampai 120 tahun. Silakan ulangi.
+Umur           : Jenis Kelamin  : NIP            : Input harus berupa angka (digit 0-9) tanpa huruf atau simbol. Silakan ulangi.
+NIP            : Bidang Keahlian: Dosen "Bu Rosa" berhasil ditambahkan.
+
+>> DATA UNIVERSITAS SAAT INI
+=== Universitas: Universitas DPBO ===
+Alamat: Jl. Merdeka No. 10, Bandung, Jawa Barat 40115
+Jumlah Anggota: 1
+Dosen
+  NIK           : 3201010001
+  Nama          : Bu Rosa
+  Umur          : 40
+  Jenis Kelamin : Perempuan
+  NIP           : 198001012010
+  Bidang Keahlian: Pemrograman Berorientasi Objek
+
+
+===== MENU TAMBAH DATA UNIVERSITAS =====
+1. Tambah Dosen
+2. Tambah Mahasiswa
+3. Tambah Mahasiswa Berprestasi (Mapres)
+4. Selesai, tampilkan data terbaru lalu keluar
+Pilih menu (1-4): 
+--- Tambah Data Dosen ---
+NIK            : Nama           : Umur           : Jenis Kelamin  : NIP            : Bidang Keahlian: Dosen "Pak Salman" berhasil ditambahkan.
+
+>> DATA UNIVERSITAS SAAT INI
+=== Universitas: Universitas DPBO ===
+Alamat: Jl. Merdeka No. 10, Bandung, Jawa Barat 40115
+Jumlah Anggota: 2
+Dosen
+  NIK           : 3201010001
+  Nama          : Bu Rosa
+  Umur          : 40
+  Jenis Kelamin : Perempuan
+  NIP           : 198001012010
+  Bidang Keahlian: Pemrograman Berorientasi Objek
+
+Dosen
+  NIK           : 3201010002
+  Nama          : Pak Salman
+  Umur          : 45
+  Jenis Kelamin : Laki-laki
+  NIP           : 197505052009
+  Bidang Keahlian: Kalkulus
+
+
+===== MENU TAMBAH DATA UNIVERSITAS =====
+1. Tambah Dosen
+2. Tambah Mahasiswa
+3. Tambah Mahasiswa Berprestasi (Mapres)
+4. Selesai, tampilkan data terbaru lalu keluar
+Pilih menu (1-4): 
+--- Tambah Data Mahasiswa ---
+NIK           : Nama          : Umur          : Jenis Kelamin : NIM           : Jurusan       : Pilih Dosen Wali:
+  1. Bu Rosa
+  2. Pak Salman
+Nomor pilihan: Input harus berupa angka. Coba lagi: Nomor di luar jangkauan, silakan ulangi.
+Nomor pilihan: Mahasiswa "Bintang" berhasil ditambahkan.
+
+>> DATA UNIVERSITAS SAAT INI
+=== Universitas: Universitas DPBO ===
+Alamat: Jl. Merdeka No. 10, Bandung, Jawa Barat 40115
+Jumlah Anggota: 3
+Dosen
+  NIK           : 3201010001
+  Nama          : Bu Rosa
+  Umur          : 40
+  Jenis Kelamin : Perempuan
+  NIP           : 198001012010
+  Bidang Keahlian: Pemrograman Berorientasi Objek
+
+Dosen
+  NIK           : 3201010002
+  Nama          : Pak Salman
+  Umur          : 45
+  Jenis Kelamin : Laki-laki
+  NIP           : 197505052009
+  Bidang Keahlian: Kalkulus
+
+Mahasiswa
+  NIK           : 3201010101
+  Nama          : Bintang
+  Umur          : 20
+  Jenis Kelamin : Laki-laki
+  NIM           : 2210101001
+  Jurusan       : Teknik Mesin
+  Dosen Wali    : Bu Rosa
+
+
+===== MENU TAMBAH DATA UNIVERSITAS =====
+1. Tambah Dosen
+2. Tambah Mahasiswa
+3. Tambah Mahasiswa Berprestasi (Mapres)
+4. Selesai, tampilkan data terbaru lalu keluar
+Pilih menu (1-4): 
+--- Tambah Data Mahasiswa ---
+NIK           : Nama          : Umur          : Jenis Kelamin : NIM           : Jurusan       : Pilih Dosen Wali:
+  1. Bu Rosa
+  2. Pak Salman
+Nomor pilihan: Nomor di luar jangkauan, silakan ulangi.
+Nomor pilihan: Mahasiswa "Azka" berhasil ditambahkan.
+
+>> DATA UNIVERSITAS SAAT INI
+=== Universitas: Universitas DPBO ===
+Alamat: Jl. Merdeka No. 10, Bandung, Jawa Barat 40115
+Jumlah Anggota: 4
+Dosen
+  NIK           : 3201010001
+  Nama          : Bu Rosa
+  Umur          : 40
+  Jenis Kelamin : Perempuan
+  NIP           : 198001012010
+  Bidang Keahlian: Pemrograman Berorientasi Objek
+
+Dosen
+  NIK           : 3201010002
+  Nama          : Pak Salman
+  Umur          : 45
+  Jenis Kelamin : Laki-laki
+  NIP           : 197505052009
+  Bidang Keahlian: Kalkulus
+
+Mahasiswa
+  NIK           : 3201010101
+  Nama          : Bintang
+  Umur          : 20
+  Jenis Kelamin : Laki-laki
+  NIM           : 2210101001
+  Jurusan       : Teknik Mesin
+  Dosen Wali    : Bu Rosa
+
+Mahasiswa
+  NIK           : 3201010102
+  Nama          : Azka
+  Umur          : 19
+  Jenis Kelamin : Laki-laki
+  NIM           : 2210101002
+  Jurusan       : Sistem Informasi
+  Dosen Wali    : Pak Salman
+
+
+===== MENU TAMBAH DATA UNIVERSITAS =====
+1. Tambah Dosen
+2. Tambah Mahasiswa
+3. Tambah Mahasiswa Berprestasi (Mapres)
+4. Selesai, tampilkan data terbaru lalu keluar
+Pilih menu (1-4): 
+--- Tambah Data Mahasiswa Berprestasi (Mapres) ---
+NIK              : Nama             : Umur             : Jenis Kelamin    : NIM              : Jurusan          : Nama Prestasi    : Tingkat Prestasi : Pilih Dosen Wali:
+  1. Bu Rosa
+  2. Pak Salman
+Nomor pilihan: Mapres "Nurul" berhasil ditambahkan.
+
+>> DATA UNIVERSITAS SAAT INI
+=== Universitas: Universitas DPBO ===
+Alamat: Jl. Merdeka No. 10, Bandung, Jawa Barat 40115
+Jumlah Anggota: 5
+Dosen
+  NIK           : 3201010001
+  Nama          : Bu Rosa
+  Umur          : 40
+  Jenis Kelamin : Perempuan
+  NIP           : 198001012010
+  Bidang Keahlian: Pemrograman Berorientasi Objek
+
+Dosen
+  NIK           : 3201010002
+  Nama          : Pak Salman
+  Umur          : 45
+  Jenis Kelamin : Laki-laki
+  NIP           : 197505052009
+  Bidang Keahlian: Kalkulus
+
+Mahasiswa
+  NIK           : 3201010101
+  Nama          : Bintang
+  Umur          : 20
+  Jenis Kelamin : Laki-laki
+  NIM           : 2210101001
+  Jurusan       : Teknik Mesin
+  Dosen Wali    : Bu Rosa
+
+Mahasiswa
+  NIK           : 3201010102
+  Nama          : Azka
+  Umur          : 19
+  Jenis Kelamin : Laki-laki
+  NIM           : 2210101002
+  Jurusan       : Sistem Informasi
+  Dosen Wali    : Pak Salman
+
+Mahasiswa Berprestasi
+  NIK           : 3201010103
+  Nama          : Nurul
+  Umur          : 20
+  Jenis Kelamin : Perempuan
+  NIM           : 2210101003
+  Jurusan       : Ilmu Komputer
+  Dosen Wali    : Pak Salman
+  Nama Prestasi    : Juara 1 Kompetisi Programming Nasional
+  Tingkat Prestasi : Nasional
+
+
+===== MENU TAMBAH DATA UNIVERSITAS =====
+1. Tambah Dosen
+2. Tambah Mahasiswa
+3. Tambah Mahasiswa Berprestasi (Mapres)
+4. Selesai, tampilkan data terbaru lalu keluar
+Pilih menu (1-4): Input harus berupa angka. Coba lagi: Pilihan tidak dikenali, silakan coba lagi.
+
+>> DATA UNIVERSITAS SAAT INI
+=== Universitas: Universitas DPBO ===
+Alamat: Jl. Merdeka No. 10, Bandung, Jawa Barat 40115
+Jumlah Anggota: 5
+Dosen
+  NIK           : 3201010001
+  Nama          : Bu Rosa
+  Umur          : 40
+  Jenis Kelamin : Perempuan
+  NIP           : 198001012010
+  Bidang Keahlian: Pemrograman Berorientasi Objek
+
+Dosen
+  NIK           : 3201010002
+  Nama          : Pak Salman
+  Umur          : 45
+  Jenis Kelamin : Laki-laki
+  NIP           : 197505052009
+  Bidang Keahlian: Kalkulus
+
+Mahasiswa
+  NIK           : 3201010101
+  Nama          : Bintang
+  Umur          : 20
+  Jenis Kelamin : Laki-laki
+  NIM           : 2210101001
+  Jurusan       : Teknik Mesin
+  Dosen Wali    : Bu Rosa
+
+Mahasiswa
+  NIK           : 3201010102
+  Nama          : Azka
+  Umur          : 19
+  Jenis Kelamin : Laki-laki
+  NIM           : 2210101002
+  Jurusan       : Sistem Informasi
+  Dosen Wali    : Pak Salman
+
+Mahasiswa Berprestasi
+  NIK           : 3201010103
+  Nama          : Nurul
+  Umur          : 20
+  Jenis Kelamin : Perempuan
+  NIM           : 2210101003
+  Jurusan       : Ilmu Komputer
+  Dosen Wali    : Pak Salman
+  Nama Prestasi    : Juara 1 Kompetisi Programming Nasional
+  Tingkat Prestasi : Nasional
+
+
+===== MENU TAMBAH DATA UNIVERSITAS =====
+1. Tambah Dosen
+2. Tambah Mahasiswa
+3. Tambah Mahasiswa Berprestasi (Mapres)
+4. Selesai, tampilkan data terbaru lalu keluar
+Pilih menu (1-4): 
+>> DATA TERBARU (PROGRAM SELESAI)
+=== Universitas: Universitas DPBO ===
+Alamat: Jl. Merdeka No. 10, Bandung, Jawa Barat 40115
+Jumlah Anggota: 5
+Dosen
+  NIK           : 3201010001
+  Nama          : Bu Rosa
+  Umur          : 40
+  Jenis Kelamin : Perempuan
+  NIP           : 198001012010
+  Bidang Keahlian: Pemrograman Berorientasi Objek
+
+Dosen
+  NIK           : 3201010002
+  Nama          : Pak Salman
+  Umur          : 45
+  Jenis Kelamin : Laki-laki
+  NIP           : 197505052009
+  Bidang Keahlian: Kalkulus
+
+Mahasiswa
+  NIK           : 3201010101
+  Nama          : Bintang
+  Umur          : 20
+  Jenis Kelamin : Laki-laki
+  NIM           : 2210101001
+  Jurusan       : Teknik Mesin
+  Dosen Wali    : Bu Rosa
+
+Mahasiswa
+  NIK           : 3201010102
+  Nama          : Azka
+  Umur          : 19
+  Jenis Kelamin : Laki-laki
+  NIM           : 2210101002
+  Jurusan       : Sistem Informasi
+  Dosen Wali    : Pak Salman
+
+Mahasiswa Berprestasi
+  NIK           : 3201010103
+  Nama          : Nurul
+  Umur          : 20
+  Jenis Kelamin : Perempuan
+  NIM           : 2210101003
+  Jurusan       : Ilmu Komputer
+  Dosen Wali    : Pak Salman
+  Nama Prestasi    : Juara 1 Kompetisi Programming Nasional
+  Tingkat Prestasi : Nasional
+
