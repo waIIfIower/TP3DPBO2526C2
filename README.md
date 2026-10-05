@@ -119,7 +119,7 @@ Program dibuat dalam tiga bahasa pemrograman, yaitu Python, Java, dan C++. Ketig
 ![Desain Relasi](Python/Dokumentasi/DesainRelasi.png)
 ## Penjelasan Desain
 
-Desain program menggunakan beberapa konsep utama dalam pemrograman berorientasi objek, yaitu **inheritance, composition, aggregation, association,** dan **polimorfisme**.
+alasan saya memilih desain seperti ini karena saya ingin memilih hybrid inheritance tetapi tetap menerapkannya di program java jadi saya tidak bisa menggunakan multiple inheritance. jadi saya memilih hirarkikal + multilevel.
 
 ### 1. Hierarchical Inheritance
 
