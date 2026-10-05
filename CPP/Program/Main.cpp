@@ -166,7 +166,7 @@ int bacaPilihanMenu()
         catch (...)
         {
         }
-        cout << "Input harus berupa angka. Coba lagi: ";
+        cout << "Input invalid. Coba lagi: ";
     }
 }
 
@@ -177,7 +177,7 @@ void tampilkanMenu()
     cout << "2. Tambah Mahasiswa" << endl;
     cout << "3. Tambah Mahasiswa Berprestasi (Mapres)" << endl;
     cout << "4. Selesai, tampilkan data terbaru lalu keluar" << endl;
-    cout << "Pilih menu (1-4): ";
+    cout << "Pilih Opsi: ";
 }
 
 // Menampilkan daftar dosen dan meminta pengguna memilih satu sebagai dosen
@@ -290,7 +290,7 @@ void tambahMapres(Universitas &kampus)
 
     Dosen *dosenWali = pilihDosenWali();
     Mapres *mapresBaru = new Mapres(nik, nama, umur, jenisKelamin, nim, jurusan, dosenWali,
-                                     namaPrestasi, tingkatPrestasi);
+                                    namaPrestasi, tingkatPrestasi);
 
     kampus.tambahManusia(mapresBaru);
 
@@ -300,12 +300,12 @@ void tambahMapres(Universitas &kampus)
 
 int main()
 {
-    Universitas kampus("Universitas DPBO",
-                        "Jawa Barat", "Bandung", "Jl. Merdeka No. 10", "40115");
+    Universitas kampus("Universitas Teknologi Cimahi",
+                       "Jawa Barat", "Cimahi", "Jl. Budi Indah No A.4", "40514");
 
     while (true)
     {
-        cout << ">> DATA UNIVERSITAS SAAT INI" << endl;
+        cout << endl << ">> DATA UNIVERSITAS SAAT INI <<" << endl << endl;
         kampus.tampilkanUniversitas();
         cout << endl;
 

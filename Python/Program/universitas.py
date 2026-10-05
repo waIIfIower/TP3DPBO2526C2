@@ -43,9 +43,9 @@ class Universitas:
 
     def tampilkan_universitas(self) -> None:
         """Mencetak nama, alamat, jumlah anggota, dan informasi setiap anggota."""
-        print(f"=== Universitas: {self._nama} ===")
+        print(f"=== {self._nama} ===")
         print(f"Alamat: {self._alamat}")
-        print(f"Jumlah Anggota: {len(self._daftar_manusia)}")
+        print(f"\nJumlah Anggota: {len(self._daftar_manusia)}")
 
         if not self._daftar_manusia:
             print("  (belum ada anggota)")

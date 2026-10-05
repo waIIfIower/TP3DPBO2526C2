@@ -49,9 +49,9 @@ public:
     // Mencetak nama, alamat, jumlah anggota, dan informasi setiap anggota.
     void tampilkanUniversitas() const
     {
-        cout << "=== Universitas: " << nama << " ===" << endl;
+        cout << "=== " << nama << " ===" << endl;
         cout << "Alamat: " << alamat.toString() << endl;
-        cout << "Jumlah Anggota: " << daftarManusia.size() << endl;
+        cout << "\nJumlah Anggota: " << daftarManusia.size() << endl;
 
         if (daftarManusia.empty())
         {

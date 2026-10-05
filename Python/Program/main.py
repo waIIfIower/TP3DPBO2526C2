@@ -101,7 +101,7 @@ def baca_pilihan_menu() -> int:
         try:
             return int(teks)
         except ValueError:
-            print("Input harus berupa angka. Coba lagi: ", end="")
+            print("Input invalid. Coba lagi: ", end="")
 
 
 def tampilkan_menu() -> None:
@@ -110,7 +110,7 @@ def tampilkan_menu() -> None:
     print("2. Tambah Mahasiswa")
     print("3. Tambah Mahasiswa Berprestasi (Mapres)")
     print("4. Selesai, tampilkan data terbaru lalu keluar")
-    print("Pilih menu (1-4): ", end="")
+    print("Pilih opsi: ", end="")
 
 
 def pilih_dosen_wali() -> Dosen:
@@ -208,8 +208,7 @@ def tambah_mapres(kampus: Universitas) -> None:
     tingkat_prestasi = baca_teks_wajib("Tingkat Prestasi : ")
 
     dosen_wali = pilih_dosen_wali()
-    mapres_baru = Mapres(nik, nama, umur, jenis_kelamin, nim, jurusan, dosen_wali,
-                          nama_prestasi, tingkat_prestasi)
+    mapres_baru = Mapres(nik, nama, umur, jenis_kelamin, nim, jurusan, dosen_wali, nama_prestasi, tingkat_prestasi)
 
     kampus.tambah_manusia(mapres_baru)
 
@@ -218,12 +217,12 @@ def tambah_mapres(kampus: Universitas) -> None:
 
 def main() -> None:
     kampus = Universitas(
-        "Universitas DPBO",
-        "Jawa Barat", "Bandung", "Jl. Merdeka No. 10", "40115",
+        "Universitas Teknologi Cimahi",
+        "Jawa Barat", "Cimahi", "Jl. Budi Indah No A.4", "40514",
     )
 
     while True:
-        print(">> DATA UNIVERSITAS SAAT INI")
+        print("\n>> DATA UNIVERSITAS SAAT INI <<\n")
         kampus.tampilkan_universitas()
         print()
 

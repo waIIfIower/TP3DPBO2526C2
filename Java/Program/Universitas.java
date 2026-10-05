@@ -49,9 +49,9 @@ public class Universitas {
 
     /** Mencetak nama, alamat, jumlah anggota, dan informasi setiap anggota. */
     public void tampilkanUniversitas() {
-        System.out.println("=== Universitas: " + nama + " ===");
+        System.out.println("=== " + nama + " ===");
         System.out.println("Alamat: " + alamat);
-        System.out.println("Jumlah Anggota: " + daftarManusia.size());
+        System.out.println("\nJumlah Anggota: " + daftarManusia.size());
 
         if (daftarManusia.isEmpty()) {
             System.out.println("  (belum ada anggota)");

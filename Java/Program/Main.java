@@ -27,16 +27,16 @@ public class Main {
     private static final Scanner scanner = new Scanner(System.in);
 
     // Dosen yang sudah dibuat, dipakai sebagai pilihan dosen wali.
-    private static final List<Dosen> daftarDosenDibuat = new ArrayList<>();
+    private static final List <Dosen> daftarDosenDibuat = new ArrayList<>();
 
     public static void main(String[] args) {
         Universitas kampus = new Universitas(
-                "Universitas DPBO",
-                "Jawa Barat", "Bandung", "Jl. Merdeka No. 10", "40115"
+                "Universitas Teknologi Cimahi",
+                "Jawa Barat", "Cimahi", "Jl. Budi Indah No A.4", "40115"
         );
 
         while (true) {
-            System.out.println(">> DATA UNIVERSITAS SAAT INI");
+            System.out.println("\n>> DATA UNIVERSITAS SAAT INI <<\n");
             kampus.tampilkanUniversitas();
             System.out.println();
 
@@ -68,7 +68,7 @@ public class Main {
         System.out.println("2. Tambah Mahasiswa");
         System.out.println("3. Tambah Mahasiswa Berprestasi (Mapres)");
         System.out.println("4. Selesai, tampilkan data terbaru lalu keluar");
-        System.out.print("Pilih menu (1-4): ");
+        System.out.print("Pilih opsi: ");
     }
 
     // ---------------------------------------------------------------------
@@ -85,7 +85,7 @@ public class Main {
             try {
                 return Integer.parseInt(scanner.nextLine().trim());
             } catch (NumberFormatException e) {
-                System.out.print("Input harus berupa angka. Coba lagi: ");
+                System.out.print("Input invalid. Coba lagi: ");
             }
         }
     }
