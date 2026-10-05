@@ -531,5 +531,3 @@ Dokumentasi error handling tersedia untuk berbagai kondisi input yang tidak vali
 | Pilihan Dosen Wali tidak valid | [Lihat](Python/Dokumentasi/ErrorPilihDosWalchar%26tidakada.png) |
 | Menambah Mahasiswa tanpa Dosen | [Lihat](Python/Dokumentasi/ErrorHandlngTambahMahasiswaTanpaDosen.png) |
 | Menambah Mapres tanpa Dosen | [Lihat](Python/Dokumentasi/ErrorHandlingTambahMapresTanpaDosen.png) |
-
-Dokumentasi lengkap untuk Java dan C++ juga tersedia dengan nama file yang sama pada folder masing-masing.
