@@ -6,72 +6,101 @@ Saya Muhammad Dzaka Indrianto dengan NIM 2508755 mengerjakan Tugas Praktikum 1 d
 Program dibuat dalam tiga bahasa pemrograman, yaitu Python, Java, dan C++. Ketiga implementasi menggunakan desain kelas dan konsep OOP yang sama.
 
 ```text
-TP3DPBO2526C2-main-2/
-│
-├── README.md
-│
 ├── Python/
 │   ├── Program/
-│   │   ├── main.py
-│   │   ├── manusia.py
+│   │   ├── alamat.py
 │   │   ├── dosen.py
 │   │   ├── mahasiswa.py
+│   │   ├── main.py
+│   │   ├── manusia.py
 │   │   ├── mapres.py
-│   │   ├── alamat.py
 │   │   └── universitas.py
 │   │
 │   └── Dokumentasi/
 │       ├── DesainRelasi.png
+│       ├── ErrorHandlingJurusanKosong.png
+│       ├── ErrorHandlingMenuCharacter.png
+│       ├── ErrorHandlingMenuDiluarPilihan.png
+│       ├── ErrorHandlingNIKchar.png
+│       ├── ErrorHandlingNIKkosong.png
+│       ├── ErrorHandlingNIMchar.png
+│       ├── ErrorHandlingNIPchar.png
+│       ├── ErrorHandlingNamaKosong.png
+│       ├── ErrorHandlingPrestasiKosong.png
+│       ├── ErrorHandlingTambahMapresTanpaDosen.png
+│       ├── ErrorHandlingUmur<1.png
+│       ├── ErrorHandlingUmur>120.png
+│       ├── ErrorHandlingUmurchar.png
+│       ├── ErrorHandlngTambahMahasiswaTanpaDosen.png
+│       ├── ErrorPilihDosWalchar&tidakada.png
 │       ├── HasilInputDosen.png
 │       ├── HasilInputMahasiswa.png
 │       ├── HasilInputMapres.png
-│       ├── OutputMenuOpsi4.png
-│       ├── berbagai dokumentasi error handling
-│       ├── output.txt
-│       ├── precondition_output.txt
-│       └── precondition_demo_output.txt
+│       └── OutputMenuOpsi4.png
 │
 ├── Java/
 │   ├── Program/
-│   │   ├── Main.java
-│   │   ├── Manusia.java
+│   │   ├── Alamat.java
 │   │   ├── Dosen.java
 │   │   ├── Mahasiswa.java
+│   │   ├── Main.java
+│   │   ├── Manusia.java
 │   │   ├── Mapres.java
-│   │   ├── Alamat.java
 │   │   └── Universitas.java
 │   │
 │   └── Dokumentasi/
 │       ├── DesainRelasi.png
+│       ├── ErrorHandlingJurusanKosong.png
+│       ├── ErrorHandlingMenuCharacter.png
+│       ├── ErrorHandlingMenuDiluarPilihan.png
+│       ├── ErrorHandlingNIKchar.png
+│       ├── ErrorHandlingNIKkosong.png
+│       ├── ErrorHandlingNIMchar.png
+│       ├── ErrorHandlingNIPchar.png
+│       ├── ErrorHandlingNamaKosong.png
+│       ├── ErrorHandlingPrestasiKosong.png
+│       ├── ErrorHandlingTambahMapresTanpaDosen.png
+│       ├── ErrorHandlingUmur<1.png
+│       ├── ErrorHandlingUmur>120.png
+│       ├── ErrorHandlingUmurchar.png
+│       ├── ErrorHandlngTambahMahasiswaTanpaDosen.png
+│       ├── ErrorPilihDosWalchar&tidakada.png
 │       ├── HasilInputDosen.png
 │       ├── HasilInputMahasiswa.png
 │       ├── HasilInputMapres.png
-│       ├── OutputMenuOpsi4.png
-│       ├── berbagai dokumentasi error handling
-│       ├── output.txt
-│       ├── precondition_output.txt
-│       └── precondition_demo_output.txt
+│       └── OutputMenuOpsi4.png
 │
 └── CPP/
     ├── Program/
-    │   ├── Main.cpp
-    │   ├── Manusia.cpp
+    │   ├── Alamat.cpp
     │   ├── Dosen.cpp
     │   ├── Mahasiswa.cpp
+    │   ├── Main.cpp
+    │   ├── Manusia.cpp
     │   ├── Mapres.cpp
-    │   ├── Alamat.cpp
     │   └── Universitas.cpp
     │
     └── Dokumentasi/
         ├── DesainRelasi.png
+        ├── ErrorHandlingJurusanKosong.png
+        ├── ErrorHandlingMenuCharacter.png
+        ├── ErrorHandlingMenuDiluarPilihan.png
+        ├── ErrorHandlingNIKchar.png
+        ├── ErrorHandlingNIKkosong.png
+        ├── ErrorHandlingNIMchar.png
+        ├── ErrorHandlingNIPchar.png
+        ├── ErrorHandlingNamaKosong.png
+        ├── ErrorHandlingPrestasiKosong.png
+        ├── ErrorHandlingTambahMapresTanpaDosen.png
+        ├── ErrorHandlingUmur<1.png
+        ├── ErrorHandlingUmur>120.png
+        ├── ErrorHandlingUmurchar.png
+        ├── ErrorHandlngTambahMahasiswaTanpaDosen.png
+        ├── ErrorPilihDosWalchar&tidakada.png
         ├── HasilInputDosen.png
         ├── HasilInputMahasiswa.png
         ├── HasilInputMapres.png
-        ├── OutputMenuOpsi4.png
-        ├── berbagai dokumentasi error handling
-        ├── output.txt
-        ├── precondition_output.txt
-        └── precondition_demo_output.txt
+        └── OutputMenuOpsi4.png
 ```
 
 ### Struktur Kelas
@@ -86,79 +115,15 @@ TP3DPBO2526C2-main-2/
 | `Universitas` | Menyimpan nama universitas, alamat, serta daftar anggota universitas. |
 | `Main` / `main.py` | Menjadi titik masuk program, menu interaktif, input data, dan validasi input. |
 
-# Cara Menjalankan
-
-## Python
-
-Masuk ke folder program Python:
-
-```bash
-cd Python/Program
-```
-
-Kemudian jalankan:
-
-```bash
-python main.py
-```
-
-## Java
-
-Masuk ke folder program Java:
-
-```bash
-cd Java/Program
-```
-
-Kompilasi seluruh class:
-
-```bash
-javac *.java
-```
-
-Kemudian jalankan:
-
-```bash
-java Main
-```
-
-## C++
-
-Masuk ke folder program C++:
-
-```bash
-cd CPP/Program
-```
-
-Karena `Main.cpp` meng-include file `.cpp` lainnya, cukup kompilasi `Main.cpp`:
-
-```bash
-g++ Main.cpp -o Main
-```
-
-Kemudian jalankan:
-
-```bash
-./Main
-```
-
-Pada Windows dapat menggunakan:
-
-```bash
-g++ Main.cpp -o Main.exe
-Main.exe
-```
-
 # Desain Relasi
+![Desain Relasi](Python/Dokumentasi/DesainRelasi.png)
 ## Penjelasan Desain
 
 Desain program menggunakan beberapa konsep utama dalam pemrograman berorientasi objek, yaitu **inheritance, composition, aggregation, association,** dan **polimorfisme**.
 
-![Desain Relasi](Python/Dokumentasi/DesainRelasi.png)
-
 ### 1. Hierarchical Inheritance
 
-`Manusia` merupakan superclass yang memiliki dua subclass langsung, yaitu `Mahasiswa` dan `Dosen`.
+`Manusia` merupakan superclass yang memiliki dua subclass langsung, yaitu `Mahasiswa` dan `Dosen` alasan saya memilih ini karena saya akan menggabungkannya dengan multilevel inheritance dibawah mahasiswa nanti untuk membuat hybrid inheritance. 
 
 ```text
         Manusia
@@ -332,13 +297,12 @@ Contohnya, meskipun objek disimpan sebagai `Manusia`, apabila objek tersebut seb
 Hal tersebut menunjukkan penerapan **polimorfisme**.
 
 # Error Handling
-## Penjelasan Error Handling
 
 Program memiliki validasi input agar kesalahan pengguna tidak menyebabkan program berhenti secara tiba-tiba.
 
 Validasi utama dilakukan pada `main.py`, `Main.java`, dan `Main.cpp`, sedangkan validasi yang berkaitan dengan keharusan memiliki dosen wali juga diterapkan pada class `Mahasiswa`.
 
-### 1. Validasi NIK
+## 1. Validasi NIK
 
 NIK tidak boleh kosong dan hanya boleh berisi angka `0-9`.
 
@@ -362,7 +326,7 @@ Dokumentasi:
 
 [Error Handling NIK kosong](Python/Dokumentasi/ErrorHandlingNIKkosong.png)
 
-### 2. Validasi NIM
+## 2. Validasi NIM
 
 NIM juga hanya boleh berisi angka `0-9`.
 
@@ -370,7 +334,7 @@ Dokumentasi:
 
 [Error Handling NIM berupa karakter](Python/Dokumentasi/ErrorHandlingNIMchar.png)
 
-### 3. Validasi NIP
+## 3. Validasi NIP
 
 NIP harus berupa angka dan tidak boleh berisi huruf atau simbol.
 
@@ -378,7 +342,7 @@ Dokumentasi:
 
 [Error Handling NIP berupa karakter](Python/Dokumentasi/ErrorHandlingNIPchar.png)
 
-### 4. Validasi Nama
+## 4. Validasi Nama
 
 Nama tidak boleh kosong.
 
@@ -392,7 +356,7 @@ Dokumentasi:
 
 [Error Handling Nama kosong](Python/Dokumentasi/ErrorHandlingNamaKosong.png)
 
-### 5. Validasi Jurusan
+## 5. Validasi Jurusan
 
 Jurusan tidak boleh kosong.
 
@@ -400,7 +364,7 @@ Dokumentasi:
 
 [Error Handling Jurusan kosong](Python/Dokumentasi/ErrorHandlingJurusanKosong.png)
 
-### 6. Validasi Umur
+## 6. Validasi Umur
 
 Umur harus berupa bilangan bulat dan berada pada rentang:
 
@@ -422,7 +386,7 @@ Dokumentasi:
 
 [Umur lebih dari 120](Python/Dokumentasi/ErrorHandlingUmur%3E120.png)
 
-### 7. Validasi Nama Prestasi
+## 7. Validasi Nama Prestasi
 
 Nama prestasi tidak boleh kosong ketika menambahkan Mahasiswa Berprestasi.
 
@@ -430,7 +394,7 @@ Dokumentasi:
 
 [Error Handling Nama Prestasi kosong](Python/Dokumentasi/ErrorHandlingPrestasiKosong.png)
 
-### 8. Validasi Pilihan Menu
+## 8. Validasi Pilihan Menu
 
 Program memiliki empat pilihan menu:
 
@@ -451,7 +415,7 @@ Dokumentasi:
 
 [Input menu di luar pilihan](Python/Dokumentasi/ErrorHandlingMenuDiluarPilihan.png)
 
-### 9. Validasi Pemilihan Dosen Wali
+## 9. Validasi Pemilihan Dosen Wali
 
 Saat menambahkan Mahasiswa atau Mapres, pengguna wajib memilih salah satu Dosen yang tersedia.
 
@@ -463,7 +427,7 @@ Dokumentasi:
 
 [Error saat memilih Dosen Wali](Python/Dokumentasi/ErrorPilihDosWalchar%26tidakada.png)
 
-### 10. Mahasiswa Tidak Dapat Ditambahkan Tanpa Dosen
+## 10. Mahasiswa Tidak Dapat Ditambahkan Tanpa Dosen
 
 Mahasiswa tidak dapat dibuat apabila belum terdapat satu pun Dosen.
 
@@ -480,7 +444,7 @@ Dokumentasi:
 
 [Tambah Mahasiswa tanpa Dosen](Python/Dokumentasi/ErrorHandlngTambahMahasiswaTanpaDosen.png)
 
-### 11. Mapres Tidak Dapat Ditambahkan Tanpa Dosen
+## 11. Mapres Tidak Dapat Ditambahkan Tanpa Dosen
 
 Sama seperti Mahasiswa, Mapres juga tidak dapat ditambahkan apabila belum ada Dosen karena setiap Mapres wajib memiliki Dosen Wali.
 
@@ -495,24 +459,13 @@ Dokumentasi:
 
 [Tambah Mapres tanpa Dosen](Python/Dokumentasi/ErrorHandlingTambahMapresTanpaDosen.png)
 
-### 12. Precondition Dosen Wali
+## 12. Precondition Dosen Wali
 
 Selain dicek pada menu program, keharusan memiliki Dosen Wali juga diterapkan pada class `Mahasiswa`.
 
 Tujuannya agar objek `Mahasiswa` maupun `Mapres` tidak dapat dibuat dalam kondisi tanpa Dosen Wali.
 
-Dokumentasi pengujian precondition tersedia pada:
-
-```text
-Python/Dokumentasi/precondition_output.txt
-Python/Dokumentasi/precondition_demo_output.txt
-
-Java/Dokumentasi/precondition_output.txt
-Java/Dokumentasi/precondition_demo_output.txt
-
-CPP/Dokumentasi/precondition_output.txt
-CPP/Dokumentasi/precondition_demo_output.txt
-```
+Pada Python, `dosen_wali` yang bernilai `None` ditolak dengan `ValueError`. Pada Java, `dosenWali` yang bernilai `null` ditolak menggunakan `Objects.requireNonNull()`. Pada C++, pointer `dosenWali` yang bernilai `nullptr` ditolak dengan `invalid_argument`.
 
 # Dokumentasi
 
@@ -557,27 +510,7 @@ Setelah pengguna memilih menu nomor 4, program menampilkan data terbaru seluruh 
 
 [Output Menu Opsi 4](Python/Dokumentasi/OutputMenuOpsi4.png)
 
-## 6. Output Pengujian Lengkap
-
-File `output.txt` berisi hasil pengujian program secara lengkap, termasuk:
-
-- Penambahan beberapa Dosen.
-- Penambahan Mahasiswa.
-- Penambahan Mahasiswa Berprestasi.
-- Pemilihan Dosen Wali.
-- Pengujian input yang tidak valid.
-- Penampilan data universitas setelah setiap proses.
-- Penampilan data terakhir sebelum program selesai.
-
-File tersedia pada masing-masing folder dokumentasi:
-
-```text
-Python/Dokumentasi/output.txt
-Java/Dokumentasi/output.txt
-CPP/Dokumentasi/output.txt
-```
-
-## 7. Dokumentasi Error Handling
+## 6. Dokumentasi Error Handling
 
 Dokumentasi error handling tersedia untuk berbagai kondisi input yang tidak valid, antara lain:
 
@@ -600,19 +533,3 @@ Dokumentasi error handling tersedia untuk berbagai kondisi input yang tidak vali
 | Menambah Mapres tanpa Dosen | [Lihat](Python/Dokumentasi/ErrorHandlingTambahMapresTanpaDosen.png) |
 
 Dokumentasi lengkap untuk Java dan C++ juga tersedia dengan nama file yang sama pada folder masing-masing.
-
-# Kesimpulan
-
-Program berhasil mengimplementasikan konsep Object-Oriented Programming yang terdiri dari:
-
-- Inheritance berupa hierarchical inheritance dan multilevel inheritance.
-- Hybrid inheritance sebagai gabungan kedua pola inheritance tersebut.
-- Composition antara `Universitas` dan `Alamat`.
-- Aggregation antara `Universitas` dan `Manusia`.
-- Association antara `Mahasiswa` atau `Mapres` dengan `Dosen` sebagai Dosen Wali.
-- Polimorfisme melalui method `getPeran()` dan `tampilkanInfo()`.
-- Error handling untuk berbagai input yang tidak valid.
-- Precondition bahwa Mahasiswa dan Mapres wajib memiliki Dosen Wali.
-- Implementasi yang setara pada Python, Java, dan C++.
-
-Dengan struktur tersebut, program dapat mengelola data Universitas, Dosen, Mahasiswa, dan Mahasiswa Berprestasi melalui menu interaktif sekaligus menunjukkan penerapan konsep-konsep utama dalam Desain dan Pemrograman Berorientasi Objek.
